@@ -8,11 +8,11 @@ interface TermLine {
 
 const LINES: TermLine[] = [
   { prompt: "$", text: "whoami" },
-  { prompt: ">", text: "rallydeen.roshan — soc analyst" },
+  { prompt: ">", text: "roshan.ahamed — soc analyst" },
   { prompt: "$", text: "uptime --career" },
   { prompt: ">", text: "3+ yrs cybersecurity · 2+ yrs 24/7 soc ops" },
   { prompt: "$", text: "clients --managed" },
-  { prompt: ">", text: "10+ organizations · escalations handled" },
+  { prompt: ">", text: "10+ organizations · shift lead" },
   { prompt: "$", text: "run threat_scan --deep" },
   { prompt: "+", text: "[ OK ] triage · detect · respond — all clear" },
 ];

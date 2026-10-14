@@ -35,12 +35,12 @@ export const profile = {
   displayName: "Rallydeen Roshan",
   title: "SOC Analyst | Cybersecurity Professional",
   email: "ahamedroshan426@gmail.com",
-  phoneDisplay: "+94 76 784 4747",
-  phoneHref: "tel:+94767844747",
-  linkedin: "https://www.linkedin.com/in/ahmed-roshan-426-rr",
-  linkedinDisplay: "linkedin.com/in/ahmed-roshan-426-rr",
-  location: "Dubai, United Arab Emirates",
-  locationShort: "Dubai, UAE",
+  phoneDisplay: "+971 050 510 9646",
+  phoneHref: "tel:+9710505109646",
+  linkedin: "https://www.linkedin.com/in/ahamed-roshan-426-rr/",
+  linkedinDisplay: "linkedin.com/in/ahamed-roshan-426-rr",
+  location: "Internet City Dubai, United Arab Emirates",
+  locationShort: "Internet city ,Dubai, UAE",
 };
 
 /* ------------------------------------------------------------------ */
@@ -113,7 +113,13 @@ export const technicalSkillCategories: SkillCategory[] = [
   {
     title: "SIEM & SOC Platforms",
     icon: Activity,
-    items: ["IBM QRadar", "Cortex XSOAR", "SIEM Dashboards", "Detection Rules", "Log Correlation"],
+    items: [
+      "IBM QRadar",
+      "Cortex XSOAR",
+      "SIEM Dashboards",
+      "Detection Rules",
+      "Log Correlation",
+    ],
   },
   {
     title: "Incident Response",
@@ -131,7 +137,11 @@ export const technicalSkillCategories: SkillCategory[] = [
   {
     title: "Identity Investigation",
     icon: Fingerprint,
-    items: ["Microsoft Entra ID", "Identity Threat Investigation", "Sign-in & Audit Log Review"],
+    items: [
+      "Microsoft Entra ID",
+      "Identity Threat Investigation",
+      "Sign-in & Audit Log Review",
+    ],
   },
   {
     title: "Email & File Investigation",
@@ -191,67 +201,80 @@ export const softSkills: SoftSkill[] = [
   {
     title: "Leadership",
     icon: Crown,
-    description: "Guiding SOC shifts and supporting team decisions during live security incidents.",
+    description:
+      "Guiding SOC shifts and supporting team decisions during live security incidents.",
   },
   {
     title: "Teamwork & Collaboration",
     icon: UsersRound,
-    description: "Working seamlessly with analysts, engineers, and client teams across time zones.",
+    description:
+      "Working seamlessly with analysts, engineers, and client teams across time zones.",
   },
   {
     title: "Quick Learning & Adaptability",
     icon: Zap,
-    description: "Ramping up fast on new EDR, SIEM, and investigation tooling as environments evolve.",
+    description:
+      "Ramping up fast on new EDR, SIEM, and investigation tooling as environments evolve.",
   },
   {
     title: "Analytical Thinking",
     icon: Brain,
-    description: "Correlating logs, alerts, and threat intel to separate real threats from noise.",
+    description:
+      "Correlating logs, alerts, and threat intel to separate real threats from noise.",
   },
   {
     title: "Problem-Solving",
     icon: Puzzle,
-    description: "Breaking down complex incidents into clear, actionable investigation steps.",
+    description:
+      "Breaking down complex incidents into clear, actionable investigation steps.",
   },
   {
     title: "Communication",
     icon: MessagesSquare,
-    description: "Delivering clear, structured incident reports and escalation summaries.",
+    description:
+      "Delivering clear, structured incident reports and escalation summaries.",
   },
   {
     title: "Client Management",
     icon: Handshake,
-    description: "Supporting 10+ managed clients with professional escalations and updates.",
+    description:
+      "Supporting 10+ managed clients with professional escalations and updates.",
   },
   {
     title: "Decision-Making",
     icon: Scale,
-    description: "Making containment calls — like endpoint isolation — with confidence under SLA.",
+    description:
+      "Making containment calls — like endpoint isolation — with confidence under SLA.",
   },
   {
     title: "Time Management",
     icon: Clock,
-    description: "Prioritizing alerts and investigations across a busy 24/7 SOC queue.",
+    description:
+      "Prioritizing alerts and investigations across a busy 24/7 SOC queue.",
   },
   {
     title: "Mentoring Junior Analysts",
     icon: GraduationCap,
-    description: "Coaching new analysts on triage workflows, tooling, and investigation quality.",
+    description:
+      "Coaching new analysts on triage workflows, tooling, and investigation quality.",
   },
   {
     title: "Attention to Detail",
     icon: Eye,
-    description: "Catching the subtle indicators others miss — in logs, emails, and endpoints.",
+    description:
+      "Catching the subtle indicators others miss — in logs, emails, and endpoints.",
   },
   {
     title: "Shift Coordination",
     icon: CalendarClock,
-    description: "Running smooth handovers and coverage across follow-the-sun SOC rotations.",
+    description:
+      "Running smooth handovers and coverage across follow-the-sun SOC rotations.",
   },
   {
     title: "Working Under Pressure",
     icon: Flame,
-    description: "Staying composed and methodical during high-severity incident response.",
+    description:
+      "Staying composed and methodical during high-severity incident response.",
   },
 ];
 
@@ -278,11 +301,22 @@ export const experience: ExperienceItem[] = [
     points: [
       "Managed SOC operations supporting 10+ clients, handling client escalations and shift coordination across the team.",
       "Assist junior analysts and contribute to complex investigations across CrowdStrike Falcon, Cortex XDR, Cortex XSIAM, Microsoft Defender XDR, and Stellar Cyber.",
-      "Conduct Microsoft Entra ID investigations and build KQL/XQL queries for threat detection and hunting.",
+      "Collaborated with the security engineering team to fine-tune detection rules using findings from daily monitoring and investigations, giving technical feedback and recommendations on detection logic to reduce false-positive alerts.",
+      "Investigated user activity in Microsoft Entra ID using sign-in logs, audit logs, authentication events and managed-device details.",
       "Perform endpoint isolation and remote remediation, and analyze suspicious emails and files in isolated virtual machines.",
+      "Used KQL and XQL for log investigation and filtering.",
       "Prepare structured investigation and incident reports for clients and internal stakeholders.",
     ],
-    stack: ["CrowdStrike Falcon", "Cortex XDR", "Cortex XSIAM", "Defender XDR", "Stellar Cyber", "Entra ID", "KQL", "XQL"],
+    stack: [
+      "CrowdStrike Falcon",
+      "Cortex XDR",
+      "Cortex XSIAM",
+      "Defender XDR",
+      "Stellar Cyber",
+      "Entra ID",
+      "KQL",
+      "XQL",
+    ],
   },
   {
     role: "Associate SOC Analyst",
@@ -294,7 +328,12 @@ export const experience: ExperienceItem[] = [
       "Mentored junior analysts on triage workflows and investigation practices.",
       "Participated in ISO-related SOC audits, attended customer meetings, and produced incident reports.",
     ],
-    stack: ["CrowdStrike Falcon", "IBM QRadar", "Detection Rules", "Incident Reporting"],
+    stack: [
+      "CrowdStrike Falcon",
+      "IBM QRadar",
+      "Detection Rules",
+      "Incident Reporting",
+    ],
   },
   {
     role: "Junior SOC Analyst",
@@ -306,7 +345,13 @@ export const experience: ExperienceItem[] = [
       "Enriched indicators with threat intelligence to support faster, more accurate verdicts.",
       "Prepared daily and monthly security reports for clients.",
     ],
-    stack: ["24/7 Monitoring", "Alert Triage", "Response Playbooks", "Threat Intelligence", "Reporting"],
+    stack: [
+      "24/7 Monitoring",
+      "Alert Triage",
+      "Response Playbooks",
+      "Threat Intelligence",
+      "Reporting",
+    ],
   },
   {
     role: "Tutelr Infinity Internship",

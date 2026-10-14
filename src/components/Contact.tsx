@@ -50,7 +50,7 @@ const contactMethods = [
   },
   {
     icon: Phone,
-    label: "Phone",
+    label: "Phone & Whatsapp",
     value: profile.phoneDisplay,
     href: profile.phoneHref,
     external: false,

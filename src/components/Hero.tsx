@@ -98,7 +98,7 @@ export function Hero() {
 
             {/* Floating tool chips */}
             <span aria-hidden="true" className="absolute -left-3 top-16 hidden animate-float-y rounded-lg border border-slate-800 bg-slate-900/90 px-3 py-1.5 font-mono text-[11px] text-cyan-300 shadow-lg sm:block">
-              KQL · XQL
+            SOC
             </span>
             <span aria-hidden="true" className="absolute -right-2 bottom-20 hidden animate-float-y-delayed rounded-lg border border-slate-800 bg-slate-900/90 px-3 py-1.5 font-mono text-[11px] text-emerald-300 shadow-lg sm:block">
               EDR · SIEM · SOAR

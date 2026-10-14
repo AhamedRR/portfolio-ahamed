@@ -70,7 +70,7 @@ export function Navbar() {
           </span>
           <span className="hidden sm:block">
             <span className="block font-display text-sm font-semibold uppercase tracking-[0.16em] text-slate-100">
-              Rallydeen Roshan
+              Roshan Ahamed
             </span>
             <span className="block font-mono text-[11px] leading-4 text-cyan-300/90">soc_analyst — {profile.locationShort.toLowerCase()}</span>
           </span>
