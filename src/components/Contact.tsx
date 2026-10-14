@@ -15,7 +15,6 @@ import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 import { cn } from "../utils/cn";
 
-/** Web3Forms access key — provided via Vite env var (see .env.example). */
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY as string | undefined;
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
