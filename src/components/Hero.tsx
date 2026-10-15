@@ -94,7 +94,7 @@ export function Hero() {
               </a>
               <a
                 href="/roshan.pdf"
-                download="Rallydeen_Roshan_Ahamed_CV.pdf"
+                download="Roshan Ahamed-SOC Analyst.pdf"
                 className="inline-flex h-12 items-center gap-2 rounded-lg border border-slate-700 bg-slate-900/60 px-6 text-sm font-semibold text-slate-100 transition-all duration-200 hover:border-cyan-400/60 hover:text-cyan-300"
               >
                 <FileDown className="size-4" aria-hidden="true" />
@@ -161,7 +161,7 @@ export function Hero() {
             <TerminalCard />
 
             {/* Floating tool chips */}
-           
+
             <span
               aria-hidden="true"
               className="absolute -right-2 bottom-20 hidden animate-float-y-delayed rounded-lg border border-slate-800 bg-slate-900/90 px-3 py-1.5 font-mono text-[11px] text-emerald-300 shadow-lg sm:block"
