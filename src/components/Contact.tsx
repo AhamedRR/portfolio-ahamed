@@ -80,7 +80,6 @@ export function Contact() {
   const onChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
     setValues((prev) => ({ ...prev, [name]: value }));
-    // Clear the field error (and stale banner) as the user fixes the input
     if (errors[name as keyof FormValues]) {
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
