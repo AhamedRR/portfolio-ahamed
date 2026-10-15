@@ -36,14 +36,14 @@ export function About() {
             <Reveal delay={100}>
               <p className="mt-6 leading-relaxed text-slate-400">
                 I&apos;m a cybersecurity professional specializing in{" "}
-                <span className="text-slate-200">Security Operations Center (SOC) activities</span> — threat detection,
+                <span className="text-slate-200">Security Operations Center (SOC) activities</span> - threat detection,
                 alert investigation, incident response, endpoint security, and client communication. My day-to-day work
                 sits at the front line of defense: monitoring environments, triaging alerts, and turning raw signals
                 into clear, actionable answers.
               </p>
               <p className="mt-4 leading-relaxed text-slate-400">
                 In managed SOC operations, I support{" "}
-                <span className="text-slate-200">multiple clients simultaneously</span> — investigating security events,
+                <span className="text-slate-200">multiple clients simultaneously</span> - investigating security events,
                 escalating complex incidents, assisting junior analysts, coordinating shifts, and preparing structured
                 incident reports that clients can act on. I&apos;m at my best in a live operations environment where
                 accuracy, speed, and calm judgment matter most.

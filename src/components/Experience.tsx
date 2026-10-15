@@ -11,7 +11,7 @@ export function Experience() {
         <SectionHeading
           eyebrow="career"
           title="Work Experience"
-          description="Four roles across managed SOC operations — from Blue Team internship foundations to leading client-facing investigations."
+          description="Four roles across managed SOC operations - from Blue Team internship foundations to leading client-facing investigations."
         />
 
         <ol className="relative mx-auto mt-14 max-w-4xl space-y-8 border-l border-slate-800 pl-8 sm:space-y-10 sm:pl-12">

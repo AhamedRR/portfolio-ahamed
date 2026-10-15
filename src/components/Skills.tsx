@@ -42,7 +42,7 @@ export function Skills() {
         <SectionHeading
           eyebrow="skills"
           title="Skills & Capabilities"
-          description="The tools I operate daily in the SOC — and the human skills that make them effective."
+          description="The tools I operate daily in the SOC - and the human skills that make them effective."
         />
 
         {/* Tabs */}

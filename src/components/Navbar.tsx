@@ -64,7 +64,7 @@ export function Navbar() {
         className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:h-[4.5rem] sm:px-6 lg:px-8"
       >
         {/* Monogram logo */}
-        <a href="#home" className="group flex items-center gap-3" aria-label="Back to top — Rallydeen Roshan Ahamed">
+        <a href="#home" className="group flex items-center gap-3" aria-label="Back to top - Rallydeen Roshan Ahamed">
           <span className="grid size-9 place-items-center rounded-lg border border-cyan-400/40 bg-cyan-400/10 font-display text-sm font-bold tracking-tight text-cyan-300 transition-colors group-hover:bg-cyan-400/20">
             RR
           </span>
@@ -72,7 +72,7 @@ export function Navbar() {
             <span className="block font-display text-sm font-semibold uppercase tracking-[0.16em] text-slate-100">
               Roshan Ahamed
             </span>
-            <span className="block font-mono text-[11px] leading-4 text-cyan-300/90">soc_analyst — {profile.locationShort.toLowerCase()}</span>
+            <span className="block font-mono text-[11px] leading-4 text-cyan-300/90">soc_analyst - {profile.locationShort.toLowerCase()}</span>
           </span>
         </a>
 

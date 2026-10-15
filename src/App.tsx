@@ -17,7 +17,7 @@ export default function App() {
         <title>{`${profile.name} | SOC Analyst & Cybersecurity Professional`}</title>
         <meta
           name="description"
-          content="Portfolio of Rallydeen Roshan Ahamed — SOC Analyst and cybersecurity professional with 3+ years of experience across managed 24/7 SOC operations, threat detection, incident response, and endpoint security."
+          content="Portfolio of Rallydeen Roshan Ahamed - SOC Analyst and cybersecurity professional with 3+ years of experience across managed 24/7 SOC operations, threat detection, incident response, and endpoint security."
         />
       </Helmet>
 

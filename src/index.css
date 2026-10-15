@@ -113,7 +113,7 @@
     color: #f1f5f9;
   }
 
-  /* Visible keyboard focus indicators (links, buttons, tabs — inputs get their own ring style) */
+  /* Visible keyboard focus indicators (links, buttons, tabs - inputs get their own ring style) */
   a:focus-visible,
   button:focus-visible,
   [role="tab"]:focus-visible {
@@ -151,7 +151,7 @@
     box-shadow: 0 0 30px -8px rgba(34, 211, 238, 0.5);
   }
 
-  /* Scroll reveal — activated by IntersectionObserver */
+  /* Scroll reveal - activated by IntersectionObserver */
   .reveal {
     opacity: 0;
     transform: translateY(26px);
