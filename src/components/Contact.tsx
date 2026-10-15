@@ -15,7 +15,7 @@ import { Reveal } from "./Reveal";
 import { SectionHeading } from "./SectionHeading";
 import { cn } from "../utils/cn";
 
-/** Web3Forms access key — provided via Vite env var (see .env.example). */
+/** Web3Forms access key - provided via Vite env var (see .env.example). */
 const WEB3FORMS_ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY as string | undefined;
 const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
 
@@ -102,7 +102,7 @@ export function Contact() {
     if (!WEB3FORMS_ACCESS_KEY) {
       setStatus("error");
       setFeedback(
-        "The contact form is not configured yet — the VITE_WEB3FORMS_ACCESS_KEY environment variable is missing. Please reach out via email or LinkedIn instead."
+        "The contact form is not configured yet - the VITE_WEB3FORMS_ACCESS_KEY environment variable is missing. Please reach out via email or LinkedIn instead."
       );
       return;
     }
@@ -129,7 +129,7 @@ export function Contact() {
 
       if (response.ok && data.success) {
         setStatus("success");
-        setFeedback("Message sent successfully. Thank you for reaching out — I will get back to you as soon as possible.");
+        setFeedback("Message sent successfully. Thank you for reaching out - I will get back to you as soon as possible.");
         setValues({ name: "", email: "", subject: "", message: "" });
         setErrors({});
       } else {
@@ -194,7 +194,7 @@ export function Contact() {
 
             <p className="mt-6 flex items-start gap-3 rounded-xl border border-slate-800/70 bg-slate-950/60 px-5 py-4 text-sm leading-relaxed text-slate-500">
               <ShieldAlert className="mt-0.5 size-4 shrink-0 text-cyan-300/70" aria-hidden="true" />
-              Messages sent through this form are delivered straight to my inbox via Web3Forms — no data is stored on
+              Messages sent through this form are delivered straight to my inbox via Web3Forms - no data is stored on
               this site.
             </p>
           </Reveal>
@@ -333,7 +333,7 @@ export function Contact() {
 
               <p className="mt-4 text-xs leading-relaxed text-slate-600">
                 Required fields are marked with <span aria-hidden="true" className="text-cyan-300">*</span>. Only your name,
-                email, and message are sent — nothing else is collected.
+                email, and message are sent - nothing else is collected.
               </p>
             </form>
           </Reveal>

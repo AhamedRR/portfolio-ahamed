@@ -35,12 +35,12 @@ export const profile = {
   displayName: "Rallydeen Roshan",
   title: "SOC Analyst | Cybersecurity Professional",
   email: "ahamedroshan426@gmail.com",
-  phoneDisplay: "+971 050 510 9646",
-  phoneHref: "tel:+9710505109646",
+  phoneDisplay: "+971 50 510 9646",
+  phoneHref: "tel:+971505109646",
   linkedin: "https://www.linkedin.com/in/ahamed-roshan-426-rr/",
   linkedinDisplay: "linkedin.com/in/ahamed-roshan-426-rr",
   location: "Internet City Dubai, United Arab Emirates",
-  locationShort: "Internet city ,Dubai, UAE",
+  locationShort: "Dubai, UAE",
 };
 
 /* ------------------------------------------------------------------ */
@@ -89,7 +89,7 @@ export const heroStackMarquee = [
 ];
 
 /* ------------------------------------------------------------------ */
-/* Skills — Technical                                                  */
+/* Skills - Technical                                                  */
 /* ------------------------------------------------------------------ */
 
 export interface SkillCategory {
@@ -188,7 +188,7 @@ export const technicalSkillCategories: SkillCategory[] = [
 ];
 
 /* ------------------------------------------------------------------ */
-/* Skills — Soft                                                       */
+/* Skills - Soft                                                       */
 /* ------------------------------------------------------------------ */
 
 export interface SoftSkill {
@@ -244,7 +244,7 @@ export const softSkills: SoftSkill[] = [
     title: "Decision-Making",
     icon: Scale,
     description:
-      "Making containment calls — like endpoint isolation — with confidence under SLA.",
+      "Making containment calls - like endpoint isolation - with confidence under SLA.",
   },
   {
     title: "Time Management",
@@ -262,7 +262,7 @@ export const softSkills: SoftSkill[] = [
     title: "Attention to Detail",
     icon: Eye,
     description:
-      "Catching the subtle indicators others miss — in logs, emails, and endpoints.",
+      "Catching the subtle indicators others miss - in logs, emails, and endpoints.",
   },
   {
     title: "Shift Coordination",
@@ -296,7 +296,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "SOC Analyst",
     company: "Delta Spike (Private) Limited",
-    period: "Jul 2025 — Sep 2026",
+    period: "Jul 2025 - Oct 2026",
     current: true,
     points: [
       "Managed SOC operations supporting 10+ clients, handling client escalations and shift coordination across the team.",
@@ -321,7 +321,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "Associate SOC Analyst",
     company: "Flix 11 (Private) Limited",
-    period: "Jan 2025 — Jul 2025",
+    period: "Jan 2025 - Jul 2025",
     points: [
       "Investigated escalated alerts using CrowdStrike Falcon EDR and IBM QRadar.",
       "Worked with SIEM dashboards and contributed to detection rules to improve alert quality.",
@@ -338,7 +338,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "Junior SOC Analyst",
     company: "Flix 11 (Private) Limited",
-    period: "Jun 2024 — Dec 2024",
+    period: "Jun 2024 - Dec 2024",
     points: [
       "Delivered 24/7 security monitoring and alert triage across client environments.",
       "Escalated incidents and followed response playbooks for containment actions.",
@@ -356,7 +356,7 @@ export const experience: ExperienceItem[] = [
   {
     role: "Tutelr Infinity Internship",
     company: "Tutelr Infosec Pvt Ltd, India",
-    period: "Jul 2023 — Mar 2024",
+    period: "Jul 2023 - Mar 2024",
     note: "Remote",
     points: [
       "Completed foundational, hands-on training in cloud security.",
@@ -384,14 +384,14 @@ export const education: EducationItem[] = [
   {
     degree: "BSc (Hons) in Information Technology",
     institution: "Sri Lanka Institute of Information Technology",
-    period: "Jun 2020 — Jun 2024",
+    period: "Jun 2020 - Jun 2024",
     detail: "Specialized in Cyber Security",
     icon: GraduationCap,
   },
   {
     degree: "G.C.E. Advanced Level",
     institution: "Physical Science Stream",
-    detail: "Secondary education — Physical Science",
+    detail: "Secondary education - Physical Science",
     icon: BookOpen,
   },
 ];
