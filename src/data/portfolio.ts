@@ -436,7 +436,7 @@ export const certifications: CertificationItem[] = [
   {
     title: "Microsoft SC-200: Security Operations Analyst",
     issuer: "Microsoft",
-    status: "In Progress",
+    status: "Completed",
     note: "Currently preparing for the SC-200 certification exam.",
     icon: Award,
   },

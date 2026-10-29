@@ -260,7 +260,7 @@ export function downloadCv(): void {
     "Foundations of Operationalizing MITRE ATT&CK, AttackIQ",
     "Advanced Incident Response and Threat Hunting, Tutelr Infosec Pvt Ltd",
     "Website Hacking Techniques, EC-Council",
-    "Microsoft SC-200 Security Operations Analyst: in progress",
+    "Microsoft SC-200 Security Operations Analyst",
   ].forEach(bullet);
   sectionRule();
 
